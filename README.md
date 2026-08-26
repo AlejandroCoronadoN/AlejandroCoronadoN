@@ -20,3 +20,5 @@ Open-source contributor working across **time-series forecasting, machine learni
 ![Stats](https://github-readme-stats.vercel.app/api?username=AlejandroCoronadoN&show_icons=true)
 ![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlejandroCoronadoN&layout=compact)
 ![Trophies](https://github-profile-trophy.vercel.app/?username=AlejandroCoronadoN)
+
+- 🤝 Open to interesting open-source collaborations in ML, forecasting, and systems tooling.
