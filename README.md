@@ -1,25 +1,29 @@
 ### Hi, I'm Alejandro 👋
 
-Open-source contributor working across **time-series forecasting, machine learning, and systems / command-line tools**. I like small, correct changes backed by tests: GNU parity for Rust CLI utilities, and numerical correctness for Python ML and forecasting libraries.
+I contribute to open-source **machine learning, statistics, and forecasting** libraries, and to low-level **systems and command-line tooling**. My contributions are small, well-tested correctness fixes: numerical accuracy and API-contract fixes in the Python data-science ecosystem, and GNU parity for Rust CLI utilities.
 
-- 🔭 Contributing to: uutils (coreutils, findutils), and Python ML/forecasting (darts, sktime, tslearn, torchmetrics, xgboost).
-- 🧰 Languages: Python, Rust, TypeScript/JavaScript.
-- 🧠 Interests: time-series forecasting, computational statistics, Bayesian modeling, distributed systems, LLM/AI tooling, parsers and CLI correctness.
-- 🎓 CS background (ITAM): machine learning, algorithms, distributed systems, compiler design.
+- 🔭 **Recent focus:** correctness and scikit-learn API-contract fixes across the ML / Kaggle ecosystem.
+- 🧰 **Languages:** Python, Rust, TypeScript / JavaScript.
+- 🧠 **Interests:** time-series forecasting, computational statistics, anomaly detection, dimensionality reduction, LLM / AI tooling, and parser / CLI correctness.
+- 🎓 **Background:** MSc Computer Science, BSc Economics (ITAM).
 
-#### Recent merged open-source contributions
-- **uutils/coreutils** — `uniq` repeated `-D` (#13898), `fold` GNU error messages (#14056), `join -o` field accumulation (#14070), `numfmt` input validation (#13899), `pr -n` optional arg (#13900), `unexpand` blank separator (#14057)
-- **uutils/findutils** — non-UTF-8 argv (#833), `-size` prefix (#834), signed `-maxdepth` (#835), ISO 8601 dates in `-newerXt` (#847), doubled error prefix on `-type` (#849)
-- **dmlc/xgboost** — `plot_importance` value-label offset for small importances (#12497)
-- **sktime/sktime** — `mean_squared_log_error` cleanup (#10816)
-- **modelscope/ms-swift** — `format_time` rounding (#9919)
-- **unit8co/darts** — `extract_subseries` return contract (#3184)
-- **tslearn-team/tslearn** — LCSS Sakoe-Chiba constraint (#705)
+#### Selected merged open-source contributions
+
+**Machine learning and data science**
+- **dmlc/xgboost** — fixed the `plot_importance` value-label offset for small importances (#12497)
 - **koaning/scikit-lego** — bounded the `IntervalEncoder` averaging window on both sides (#819)
+- **sktime/sktime** — `mean_squared_log_error` cleanup (#10816)
+- **unit8co/darts** — corrected the `extract_subseries` return contract (#3184)
+- **tslearn-team/tslearn** — enforced the LCSS Sakoe-Chiba constraint (#705)
 
-#### Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=AlejandroCoronadoN&show_icons=true)
-![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlejandroCoronadoN&layout=compact)
-![Trophies](https://github-profile-trophy.vercel.app/?username=AlejandroCoronadoN)
+**Systems and CLI (uutils, GNU parity)**
+- **uutils/coreutils** — fixes across `uniq`, `fold`, `join`, `numfmt`, `pr`, `unexpand`, and `printf`
+- **uutils/findutils** — fixes across non-UTF-8 argv, `-size`, `-maxdepth`, `-newerXt`, and `-type`
 
-- 🤝 Open to interesting open-source collaborations in ML, forecasting, and systems tooling.
+*More contributions in review across pyod, feature-engine, category-encoders, mlxtend, pingouin, prince, tsfresh, umap-learn, and torchmetrics.*
+
+#### GitHub stats
+![Stats](https://github-readme-stats.vercel.app/api?username=AlejandroCoronadoN&show_icons=true&hide_title=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlejandroCoronadoN&layout=compact)
+
+🤝 Open to interesting open-source collaborations in ML, forecasting, and systems tooling.
