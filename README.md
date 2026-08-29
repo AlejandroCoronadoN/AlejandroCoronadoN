@@ -8,13 +8,14 @@ Open-source contributor working across **time-series forecasting, machine learni
 - 🎓 CS background (ITAM): machine learning, algorithms, distributed systems, compiler design.
 
 #### Recent merged open-source contributions
-- **uutils/coreutils** — `uniq` repeated `-D` (#13898), `fold` GNU error messages (#14056), `join -o` field accumulation (#14070)
+- **uutils/coreutils** — `uniq` repeated `-D` (#13898), `fold` GNU error messages (#14056), `join -o` field accumulation (#14070), `numfmt` input validation (#13899), `pr -n` optional arg (#13900), `unexpand` blank separator (#14057)
 - **uutils/findutils** — non-UTF-8 argv (#833), `-size` prefix (#834), signed `-maxdepth` (#835), ISO 8601 dates in `-newerXt` (#847), doubled error prefix on `-type` (#849)
 - **dmlc/xgboost** — `plot_importance` value-label offset for small importances (#12497)
 - **sktime/sktime** — `mean_squared_log_error` cleanup (#10816)
 - **modelscope/ms-swift** — `format_time` rounding (#9919)
 - **unit8co/darts** — `extract_subseries` return contract (#3184)
 - **tslearn-team/tslearn** — LCSS Sakoe-Chiba constraint (#705)
+- **koaning/scikit-lego** — bounded the `IntervalEncoder` averaging window on both sides (#819)
 
 #### Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=AlejandroCoronadoN&show_icons=true)
